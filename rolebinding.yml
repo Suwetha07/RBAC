@@ -8,10 +8,9 @@ subjects:
   name: raj
   apiGroup: rbac.authorization.k8s.io
 - kind: ServiceAccount
-  name: raj
+  name: suwetha-serviceaccount
   namespace: suwetha-ns
-  apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: Role
-  name: pod-manager
+  name: sc-suwetha-role
   apiGroup: rbac.authorization.k8s.io
