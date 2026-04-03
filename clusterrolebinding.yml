@@ -1,7 +1,7 @@
 apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRoleBinding
 metadata:
-  name: raj-cluster-pod-access
+  name: raj-cluster-pod-access1
 subjects:
 - kind: User
   name: raj
