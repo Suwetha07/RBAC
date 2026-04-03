@@ -9,7 +9,7 @@ subjects:
   apiGroup: rbac.authorization.k8s.io
 - kind: ServiceAccount
   name: suwetha-serviceaccount
-  namespace: suwetha-ns
+  namespace: clahanstore
 roleRef:
   kind: Role
   name: sc-suwetha-role
